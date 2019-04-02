@@ -1,0 +1,14 @@
+DB_HOST=[string]                Database host.  Default localhost
+DB_LOG_SQL=[boolean]            Whether to output sql queries to stdout.  Default false.
+DB_NAME=<string>                Database name.
+DB_PASS=<string>                Database user's password.
+DB_PORT=[number]                Database port.  Default 5432
+DB_SSL=[boolean]                Whether to use ssl connection.  Default false.
+DB_USER=<string>                Database user's username.
+JWT_TOKEN_SECRET=<string>       The secret to use when signing identity tokens
+PORT=[number]                   Port service will use.  Default (check package.json).
+SENDGRID_API_KEY=<string>       Key generated through Sendgrid
+HOST=<string>                   Host service will use. default localhost.
+
+# Note: Optional entries if excluded will use specified default.
+# Optional entries denoted by [] around type, required by <>.
